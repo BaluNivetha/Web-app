@@ -46,7 +46,7 @@ jobs:
       with:
         # uses this encrypted secret set via github repo settings
         # which is essentially a copy of the JSON credentials file contents
-        credentials_json: '${{ secrets.GOOGLE_API_CREDENTIALS }}'
+        credentials_json: '${{ secrets.GOOGLE_CREDENTIALS }}'
         # this will create a credentials file with a randomized name
         create_credentials_file:  true
 
