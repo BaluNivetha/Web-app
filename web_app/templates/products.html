@@ -3,7 +3,13 @@
 {% set active_page = "products" %}
 
 {% block content %}
-
+<style>
+    .card-img-top {
+        height: 200px; /* Fixed height */
+        width: 100%; /* Full width */
+        object-fit: cover; /* Cover the frame without distorting */
+    }
+</style>
     <h1>Products</h1>
 
     <p class="lead">This is the products page</p>
