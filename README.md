@@ -209,7 +209,3 @@ Below are links to the images used in the application:
 - ![Salmon Fillets](https://media.istockphoto.com/photos/fresh-salmon-fillets-picture-id1071096328)
 - ![Pork Belly](https://media.istockphoto.com/photos/belly-pork-uncooked-isolated-on-a-white-background-picture-id97491281)
 
-## Code Sources:
-- [W3Schools HTML Tutorial](https://www.w3schools.com/html/default.asp)
-- [W3Schools CSS Tutorial](https://www.w3schools.com/css/default.asp)
-- Referred to ChatGPT for CSS Changes
