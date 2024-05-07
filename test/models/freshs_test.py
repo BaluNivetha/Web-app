@@ -14,6 +14,6 @@ def test_freshs(model_context):
     # CREATE
     fresh = Fresh.find(1)
     assert fresh.id == 1
-    assert fresh.name == "Strawberries"
-    assert fresh.price == '4.99'
+    assert fresh.name == "Tomatoes"
+    assert fresh.price == '$2.99'
     assert isinstance(fresh.created_at, datetime)
