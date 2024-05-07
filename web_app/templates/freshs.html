@@ -1,0 +1,36 @@
+{% extends "bootstrap_5_layout.html" %}
+{% set page_title = "Freshs Page" %}
+{% set active_page = "freshs" %}
+{% block content %}
+    <h1>Freshs</h1>
+    <p class="lead">This is the fresh produces page</p>
+    {% if freshs|length > 0 %}
+        <!--div class="container"-->
+        <div class="row">
+            {% for fresh in freshs %}
+                <div class="col">
+                    <div class="card" style="width: 18rem; margin-bottom: 20px;">
+                        <img class="card-img-top" src="{{ fresh.url }}" alt="an image of '{{ fresh.name }}'">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ fresh.name }}</h5>
+                            <p class="card-text">{{ fresh.description }}</p>
+                            <!--button class="btn btn-primary">Order now!</button-->
+                            <!-- CREATE ORDER -->
+                            <form method="POST" action="/user/orders/create" style="display: inline;">
+                                <input type="hidden" name="fresh_id" value="{{ fresh.id }}">
+                                <input type="hidden" name="fresh_name" value="{{ fresh.name }}">
+                                <input type="hidden" name="fresh_description" value="{{ fresh.description }}">
+                                <input type="hidden" name="fresh_price" value="{{ fresh.price }}">
+                                <input type="hidden" name="fresh_url" value="{{ fresh.url }}">
+                                <button type="submit" class="btn btn-outline-primary">Order now!</button>
+                             </form>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <!--/div-->
+    {% else %}
+        <p>Oops, no fresh products found.</p>
+    {% endif %}
+{% endblock %}

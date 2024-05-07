@@ -1,0 +1,36 @@
+{% extends "bootstrap_5_layout.html" %}
+{% set page_title = "Frozens Page" %}
+{% set active_page = "frozens" %}
+{% block content %}
+    <h1>Frozens</h1>
+    <p class="lead">This is the frozen produces page</p>
+    {% if frozens|length > 0 %}
+        <!--div class="container"-->
+        <div class="row">
+            {% for frozen in frozens %}
+                <div class="col">
+                    <div class="card" style="width: 18rem; margin-bottom: 20px;">
+                        <img class="card-img-top" src="{{ frozen.url }}" alt="an image of '{{ frozen.name }}'">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ frozen.name }}</h5>
+                            <p class="card-text">{{ frozen.description }}</p>
+                            <!--button class="btn btn-primary">Order now!</button-->
+                            <!-- CREATE ORDER -->
+                            <form method="POST" action="/user/orders/create" style="display: inline;">
+                                <input type="hidden" name="frozen_id" value="{{ frozen.id }}">
+                                <input type="hidden" name="frozen_name" value="{{ frozen.name }}">
+                                <input type="hidden" name="frozen_description" value="{{ frozen.description }}">
+                                <input type="hidden" name="frozen_price" value="{{ frozen.price }}">
+                                <input type="hidden" name="frozen_url" value="{{ frozen.url }}">
+                                <button type="submit" class="btn btn-outline-primary">Order now!</button>
+                             </form>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <!--/div-->
+    {% else %}
+        <p>Oops, no frozen products found.</p>
+    {% endif %}
+{% endblock %}
