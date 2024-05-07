@@ -7,56 +7,56 @@ class Frozen(BaseModel):
         {
             'name': 'Chicken Breast',
             'description': 'Fat-free and organic chicken breast',
-            'price': 14.99,
+            'price': '$14.99',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Frozen/Chicken-breast.png?raw=true'
         },
         {
             'name': 'Chicken Thighs',
             'description': 'Tasty, healthy and protein filled.',
-            'price': 13.49,
+            'price': '$13.49',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Frozen/chicken%20thigh.webp?raw=true'
         },
         {
             'name': 'Salmon',
-            'description': 'De-boned, fresh water Salmon',
-            'price': 29.99,
+            'description': 'De-boned, fresh water Salmon.',
+            'price': '$29.99',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Frozen/salmon.jpeg?raw=true'
-        },
-        {
-            'name': 'Shrimp',
-            'description': 'De-veined, Tail-Off Medium shrimp .',
-            'price': 19.99,
-            'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Frozen/shrimp.jpeg?raw=true'
         },
         {
             'name': 'Grounf Beef',
             'description': 'Healthy and tasty groound meat.',
-            'price': 12.99,
+            'price': '$12.99',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Frozen/ground%20beef.jpeg?raw=true'
         },
         {
             'name': 'Pork Belly',
             'description': 'Soft, fatty and tasty pork belly.',
-            'price': 13.49,
+            'price': '$13.49',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Frozen/prok%20belly.jpeg?raw=true'
         },
         {
             'name': 'Chicken sausage',
             'description': 'Ground chicken and spices sausage.',
-            'price': 10.99,
+            'price': '$10.99',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Frozen/chicken%20sausage.jpeg?raw=true'
         },
         {
             'name': 'Pepperoni',
             'description': 'Salty, fresh and fatty pepperoni.',
-            'price': 4.99,
+            'price': '$4.99',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Frozen/pepperoni.jpeg?raw=true'
         },
         {
             'name': 'Meatballs',
             'description': 'Healthy meatballs perfect for pasta.',
-            'price': 17.99,
+            'price': '$17.99',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Frozen/meatbals.jpeg?raw=true'
+        },
+        {
+            'name': 'Shrimp',
+            'description': 'De-veined, Tail-Off Medium shrimp.',
+            'price': '$19.99',
+            'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Frozen/shrimp.jpeg?raw=true'
         }
     ]
 if __name__ == "__main__":

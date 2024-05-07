@@ -7,55 +7,55 @@ class Fresh(BaseModel):
         {
             'name': 'Strawberries',
             'description': 'Juicy organic strawberries.',
-            'price': 4.99,
+            'price': '$4.99',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Fresh/Strawberry.jpeg?raw=true'
         },
         {
             'name': 'Potatoes',
             'description': 'Fresh, organic and tasty potatoes.',
-            'price': 3.49,
+            'price': '$3.49',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Fresh/potatoes.jpeg?raw=true'
         },
         {
             'name': 'Tomatoes',
             'description': 'Fresh, organic and juicy tomatoes.',
-            'price': 129.99,
+            'price': '$2.99',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Fresh/tomatoes.jpeg?raw=true'
         },
         {
             'name': 'Celery',
             'description': 'Crispy, crunch and healthy celeries.',
-            'price': 19.99,
+            'price': '$19.99',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Fresh/celery.jpeg?raw=true'
         },
         {
             'name': 'Oranges',
             'description': 'Juicy, citrusy and heathy oranges.',
-            'price': 12.99,
+            'price': '$12.99',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Fresh/orange.webp?raw=true'
         },
         {
             'name': 'Bananas',
             'description': 'Healty, sweet and fresh bananas.',
-            'price': 3.49,
+            'price': '$3.49',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Fresh/banana.webp?raw=true'
         },
         {
             'name': 'Avocado',
             'description': 'Creamy and full of healthy fats.',
-            'price': 10.99,
+            'price': '$10.99',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Fresh/Avacado.jpeg?raw=true'
         },
         {
             'name': 'Carrots',
             'description': 'Sweet, fresh and crunchy carrots.',
-            'price': 4.99,
+            'price': '$4.99',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Fresh/carrots.jpeg?raw=true'
         },
         {
             'name': 'Beans',
             'description': 'Green, healthy and tasty beans.',
-            'price': 7.99,
+            'price': '$7.99',
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Fresh/beans.jpeg?raw=true'
         }
     ]

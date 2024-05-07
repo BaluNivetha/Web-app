@@ -9,8 +9,10 @@
         object-fit: cover; /* Cover the frame without distorting */
     }
 </style>
-    <h1>Frozens</h1>
-    <p class="lead">This is the frozen produces page</p>
+<h1 style="color: #184910; font-size: 2em;">Frozen Products</h1>
+<p class="lead" style="color: #333; font-size: 1.2em;font-weight: 370;">Wildly caught, free-range raised and straight to your grills!
+<br> Ethically sourced and perfectly preserved.
+</p>
     {% if frozens|length > 0 %}
         <!--div class="container"-->
         <div class="row">
@@ -21,6 +23,8 @@
                         <div class="card-body">
                             <h5 class="card-title">{{ frozen.name }}</h5>
                             <p class="card-text">{{ frozen.description }}</p>
+                            <p class="card-text">{{ frozen.price }}</p>
+
                             <!--button class="btn btn-primary">Order now!</button-->
                             <!-- CREATE ORDER -->
                             <form method="POST" action="/user/orders/create" style="display: inline;">

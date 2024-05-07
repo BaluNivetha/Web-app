@@ -10,8 +10,8 @@
         object-fit: cover; /* Cover the frame without distorting */
     }
 </style>
-<h1>Freshs</h1>
-<p class="lead">This is the fresh produces page</p>
+<h1 style="color: #184910; font-size: 2em;">Fresh Produce</h1>
+<p class="lead" style="color: #333; font-size: 1.2em;font-weight: 370;">Straight from the farms to your kitchen! <br> Fresh, organic and healthy.</p>
 {% if freshs|length > 0 %}
     <div class="row">
         {% for fresh in freshs %}
@@ -21,6 +21,8 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ fresh.name }}</h5>
                         <p class="card-text">{{ fresh.description }}</p>
+                        <p class="card-text">{{ fresh.price }}</p>
+
                         <form method="POST" action="/user/orders/create" style="display: inline;">
                             <input type="hidden" name="fresh_id" value="{{ fresh.id }}">
                             <input type="hidden" name="fresh_name" value="{{ fresh.name }}">

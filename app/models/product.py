@@ -13,12 +13,12 @@ class Product(BaseModel):
             'name': 'Strawberries',
             'description': 'Buy 2 boxes of Strawberries and get 1 box for free!',
             'price': 4.99,
-            'url': 'https://picsum.photos/id/1080/360/200'
+            'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Fresh/Strawberry.jpeg?raw=true'
         },
         {
             'name': 'Avocado',
             'description': 'Buy 1 Avocado @ $2 off, buy 3 Avocado @ $5 off.',
-            'price': 3.49,
+            'price': 10.99,
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Fresh/Avacado.jpeg?raw=true'
         },
         {
@@ -30,25 +30,25 @@ class Product(BaseModel):
         {
             'name': 'Beans',
             'description': 'Buy 1lb beans and get $3 off on carrots.',
-            'price': 3.49,
+            'price': 7.99,
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Fresh/beans.jpeg?raw=true'
         },
         {
             'name': 'Meatballs',
             'description': 'Buy 1lb meatballs and get $5 off on seasoning kit',
-            'price': 3.49,
+            'price': 17.99,
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Frozen/meatbals.jpeg?raw=true'
         },
         {
             'name': 'Chicken Sausage',
             'description': 'Buy 10 Chicken Sausages and get 2 Chicken Sausages for free!',
-            'price': 3.49,
+            'price': 10.99,
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Frozen/chicken%20sausage.jpeg?raw=true'
         },
         {
           'name': 'Celery',
             'description': 'Buy 1lb Celery and get 30 days trial with blender!',
-            'price': 3.49,
+            'price': 19.99,
             'url': 'https://github.com/BaluNivetha/Web-app/blob/main/pictures/Fresh/celery.jpeg?raw=true'
         },
         {
