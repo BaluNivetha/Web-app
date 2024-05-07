@@ -14,6 +14,6 @@ def test_frozens(model_context):
     # CREATE
     frozen = Frozen.find(1)
     assert frozen.id == 1
-    assert frozen.name == "Meatballs"
-    assert frozen.price == '$17.99'
+    assert frozen.name == "Chicken Breast"
+    assert frozen.price == '$14.99'
     assert isinstance(frozen.created_at, datetime)
