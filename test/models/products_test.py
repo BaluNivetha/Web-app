@@ -20,7 +20,7 @@ def test_products(model_context):
     # FIND ALL:
 
     products = Product.all()
-    assert len(products) == 3
+    assert len(products) == 8
 
     # CREATE
 

@@ -10,7 +10,7 @@ def test_freshs(model_context):
     Fresh.seed()
     # FIND ALL:
     freshs = Fresh.all()
-    assert len(freshs) == 3
+    assert len(freshs) == 9
     # CREATE
     fresh = Fresh.find(1)
     assert fresh.id == 1

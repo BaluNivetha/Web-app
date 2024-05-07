@@ -10,7 +10,7 @@ def test_frozens(model_context):
     Frozen.seed()
     # FIND ALL:
     frozens = Frozen.all()
-    assert len(frozens) == 3
+    assert len(frozens) == 9
     # CREATE
     frozen = Frozen.find(1)
     assert frozen.id == 1
