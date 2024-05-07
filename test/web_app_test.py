@@ -24,7 +24,7 @@ def test_products_page(test_client):
     Product.seed()
 
     products = Product.all()
-    assert len(products) == 3
+    assert len(products) == 8
 
     # given certain products in the database,
     # we expect to see corresponding information on the page:
@@ -46,7 +46,7 @@ def test_freshs_page(test_client):
     Fresh.destroy_all()
     Fresh.seed()
     freshs = Fresh.all()
-    assert len(freshs) == 3
+    assert len(freshs) == 9
     # given certain freshs in the database,
     # we expect to see corresponding information on the page:
     response = test_client.get("/freshs")
@@ -67,7 +67,7 @@ def test_frozens_page(test_client):
     Frozen.destroy_all()
     Frozen.seed()
     frozens = Frozen.all()
-    assert len(frozens) == 3
+    assert len(frozens) == 9
     # given certain frozens in the database,
     # we expect to see corresponding information on the page:
     response = test_client.get("/frozens")
