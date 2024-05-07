@@ -17,12 +17,17 @@ This web application is designed to simulate a grocery store setup with speciali
 - Order details synchronization with Google Sheets.
 - User authentication system reflecting on the Orders page.
 
+## Google Sheets
+Production Sheet:
+https://docs.google.com/spreadsheets/d/1cJ6BLu_Ya1_P8KZZuDPHVPNMJAQZajG6bSVDFGQFfyI
+
 ## Code Sources
 - HTML and CSS basics were referenced from [W3Schools HTML Tutorial](https://www.w3schools.com/html/) and [W3Schools CSS Tutorial](https://www.w3schools.com/css/).
 - For CSS modifications, assistance was obtained from ChatGPT.
 
 ## Main Template
 The app is based on a Flask integration with Google Sheets, detailed in this [GitHub repository](https://github.com/prof-rossetti/flask-sheets-template-2024).
+
 
 ## Images
 - [Potatoes](https://thumbs.dreamstime.com/b/raw-potatoes-white-background-61790721.jpg)
