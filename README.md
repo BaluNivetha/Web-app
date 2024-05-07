@@ -25,18 +25,17 @@ This web application is designed to simulate a grocery store setup with speciali
 The app is based on a Flask integration with Google Sheets, detailed in this [GitHub repository](https://github.com/prof-rossetti/flask-sheets-template-2024).
 
 ## Images
-Below are links to the images used in the application:
-[Potatoes](https://thumbs.dreamstime.com/b/raw-potatoes-white-background-61790721.jpg)
-- [Strawberries](https://media.istockphoto.com/id/464646860/photo/background-from-freshly-harvested-strawberries.jpg?s=612x612&w=0&k=20&c=H9UQiul3eHb6m1B-WWxyZveh8ovzPnl5E32WGTNQdY8=)
-- [Tomatoes](https://media.istockphoto.com/id/831570242/photo/three-juicy-red-tomatoes-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=bBrjZsWY4eg90OpA2S6cO3psGR1TFx8f4L0HAmIQqm4=)
+- [Potatoes](https://thumbs.dreamstime.com/b/raw-potatoes-white-background-61790721.jpg)
+- [Strawberries](https://media.istockphoto.com/photos/background-from-freshly-harvested-strawberries-picture-id464646860?s=612x612&w=0&k=20&c=H9UQiul3eHb6m1B-WWxyZveh8ovzPnl5E32WGTNQdY8=)
+- [Tomatoes](https://media.istockphoto.com/photos/three-juicy-red-tomatoes-isolated-on-white-background-picture-id831570242?s=612x612&w=0&k=20&c=bBrjZsWY4eg90OpA2S6cO3psGR1TFx8f4L0HAmIQqm4=)
 - [Avocados](https://t4.ftcdn.net/jpg/00/44/37/07/360_F_44370711_11fDtSOwwqhg9aYW7cc2SZ6cNs7kbQ0S.jpg)
 - [Oranges](https://www.shutterstock.com/image-photo/orange-cut-half-green-leaves-600nw-1927497314.jpg)
 - [Bananas](https://www.shutterstock.com/image-photo/ripe-banana-isolated-on-white-600nw-1378992854.jpg)
 - [Cabbage](https://www.shutterstock.com/image-photo/cabbage-isolated-on-white-background-600nw-1517668238.jpg)
-- [Beans](https://media.istockphoto.com/id/182035936/photo/fresh-beans.jpg?s=612x612&w=0&k=20&c=BCPwV719N6jAAiEQgucyVUdNIsDvECS4-sOy0Dbsrbw=)
+- [Beans](https://media.istockphoto.com/photos/fresh-beans-picture-id182035936?s=612x612&w=0&k=20&c=BCPwV719N6jAAiEQgucyVUdNIsDvECS4-sOy0Dbsrbw=)
 - [Chicken Breast](https://sure4pets.uk/wp-content/uploads/2022/08/Chicken-breast-fillets-1.png)
 - [Chicken Thigh](https://www.shutterstock.com/image-photo/raw-chicken-thigh-on-black-600nw-1527190157.jpg)
-- [Salmon](https://media.istockphoto.com/id/1071096328/photo/fresh-salmon-fillets.jpg?s=612x612&w=0&k=20&c=g6Q1BeHK4GWxE6LmTA0AyefZwK4pOLmvorXdkK8yp8Y=)
-- [Meatballs](https://media.istockphoto.com/id/488387982/photo/minced-meat.jpg?s=612x612&w=0&k=20&c=mMVyXSA7qVAZ2M2gSTeJ-mw-4pNXbGDGF4bF4NMSpJk=)
-- [Sausages](https://media.istockphoto.com/id/1368376460/photo/roasted-sausages-on-cutting-board.jpg?s=612x612&w=0&k=20&c=Y6KUJjeNSEbhjSFL3-3rhDXadwxjKvEn4R0J8bUNVgk=)
-- [Pork](https://media.istockphoto.com/id/97491281/photo/belly-pork-uncooked-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=jIDW4ilqttSBMrSnOBtWQc7H9GZUcFcV7Y-5otwmE1M=)
+- [Salmon](https://media.istockphoto.com/photos/fresh-salmon-fillets-picture-id1071096328?s=612x612&w=0&k=20&c=g6Q1BeHK4GWxE6LmTA0AyefZwK4pOLmvorXdkK8yp8Y=)
+- [Meatballs](https://media.istockphoto.com/photos/minced-meat-picture-id488387982?s=612x612&w=0&k=20&c=mMVyXSA7qVAZ2M2gSTeJ-mw-4pNXbGDGF4bF4NMSpJk=)
+- [Sausages](https://media.istockphoto.com/photos/roasted-sausages-on-cutting-board-picture-id1368376460?s=612x612&w=0&k=20&c=Y6KUJjeNSEbhjSFL3-3rhDXadwxjKvEn4R0J8bUNVgk=)
+- [Pork](https://media.istockphoto.com/photos/belly-pork-uncooked-isolated-on-a-white-background-picture-id97491281?s=612x612&w=0&k=20&c=jIDW4ilqttSBMrSnOBtWQc7H9GZUcFcV7Y-5otwmE1M=)
